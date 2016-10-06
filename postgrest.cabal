@@ -71,6 +71,7 @@ executable postgrest
                      , HTTP
                      , Ranged-sets
                      , protolude >= 0.1.5 && < 0.2.0
+                     , xdg-basedir
   if !os(windows)
     build-depends:     unix >= 2.7 && < 3
 
@@ -84,6 +85,7 @@ library
                      , bytestring
                      , case-insensitive
                      , cassava
+                     , configurator
                      , containers
                      , contravariant
                      , errors
@@ -116,6 +118,7 @@ library
                      , swagger2 >= 2.1
                      , protolude >= 0.1.5 && < 0.2.0
                      , network-uri >= 2.6.1.0
+                     , xdg-basedir
 
   Other-Modules:       Paths_postgrest
   Exposed-Modules:     PostgREST.App
