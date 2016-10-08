@@ -91,6 +91,7 @@ library
                      , hasql
                      , hasql-transaction
                      , hasql-pool
+                     , heredoc
                      , http-types
                      , interpolatedstring-perl6
                      , jwt
