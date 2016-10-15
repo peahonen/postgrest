@@ -147,6 +147,7 @@ Test-Suite spec
                      , Feature.DeleteSpec
                      , Feature.InsertSpec
                      , Feature.NoJwtSpec
+                     , Feature.ProxySpec
                      , Feature.QuerySpec
                      , Feature.QueryLimitedSpec
                      , Feature.RangeSpec
