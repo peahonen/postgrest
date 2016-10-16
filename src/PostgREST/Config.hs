@@ -29,7 +29,7 @@ import           Network.Wai
 import           Network.Wai.Middleware.Cors (CorsResourcePolicy (..))
 import           Options.Applicative
 import           Paths_postgrest             (version)
-import           Protolude hiding            (intercalate)
+import           Protolude hiding            (intercalate, (<>))
 import           Safe                        (readMay)
 
 -- | Data type to store all command line options

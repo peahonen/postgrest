@@ -52,7 +52,7 @@ import           Data.Scientific         ( FPFormat (..)
                                          , formatScientific
                                          , isInteger
                                          )
-import           Protolude hiding        (from, intercalate, ord, cast)
+import           Protolude hiding        (from, intercalate, ord, cast, hush, note)
 import           Unsafe                  (unsafeHead)
 import           PostgREST.ApiRequest    (PreferRepresentation (..))
 
